@@ -7,7 +7,7 @@ int main()
     c=1;
     for(i=1;i<=5;i++)
     {
-        c=5*i;
+        c=n*i;
         printf("%d ",c);
     }
     return 0;
