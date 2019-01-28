@@ -2,7 +2,7 @@
 
 int main()
 {
-   char a[100],i;
+   char a[10],i;
    scanf("%s",a);
    for(i=0;a[i]!='\0';i++)
    {
