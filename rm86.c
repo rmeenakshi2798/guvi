@@ -9,7 +9,6 @@ int main()
  for(i=0;a[i]!='\0';i++);
 c=i;
   s=c;
-  printf("%d",c);
   for(i=0;a[i]!='\0';i++)
   {
       for(j=i+1;a[j]!='\0';j++)
