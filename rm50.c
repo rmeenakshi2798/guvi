@@ -1,18 +1,25 @@
-#include <stdio.h>
-#include<math.h>
+
+    #include <stdio.h>
+
 int main()
 {
-   int a,c,b;
-   scanf("%d",&a);
-   b=sqrt(a);
-   c=b*b;
-   if(c==a)
-   printf("yes");
-   else
-   printf("no");
-   
-   
-   
+   int n,i,p=1,c=0;
+   scanf("%d",&n);
+  for(i=0;i<=n;i++)
+  {
+    
+      p=p*2;
+      if(n==p)
+      {
+          c=1;
+          printf("yes");
+          break;
+      }
+  }
+  if(c==0)
+  {
+      printf("no");
+  }
 
     return 0;
 }
